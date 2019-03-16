@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <!--        <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">-->
 
 
@@ -299,7 +300,7 @@
                                             </div>
                                             <div class="col-sm-1 col-xs-1">
                                                 <figure class="single_service_icon">
-                                                    <i class="fa fa-heart"></i>
+                                                    <i class="fas fa-desktop"></i>
                                                 </figure><!-- End of figure -->
                                             </div>
                                         </div>
@@ -319,7 +320,7 @@
                                             </div>
                                             <div class="col-sm-1 col-xs-1">
                                                 <figure class="single_service_icon">
-                                                    <i class="fa fa-heart"></i>
+                                                    <i class="fas fa-mobile-alt"></i>
                                                 </figure><!-- End of figure -->
                                             </div>
                                         </div>
@@ -339,7 +340,7 @@
                                             </div>
                                             <div class="col-sm-1 col-xs-1">
                                                 <figure class="single_service_icon">
-                                                    <i class="fa fa-heart"></i>
+                                                    <i class="fas fa-pencil-alt"></i>
                                                 </figure><!-- End of figure -->
                                             </div>
                                         </div>
@@ -719,7 +720,7 @@
                                         <li style="color: #7979796b">Painel de gerenciamento</li>
                                         <li style="color: #7979796b">Chat online</li>
                                     </ul>
-                                    <a href="" class="btn btn-md">ESCOLHER ESTE</a>
+                                    <a href="#contact" class="btn btn-md">ESCOLHER ESTE</a>
                                 </div>
                             </div>
                         </div> <!-- End off col-md-4 -->
@@ -744,7 +745,7 @@
                                         <li style="color: #7979796b">Painel de gerenciamento</li>
                                         <li style="color: #7979796b">Chat online</li>
                                     </ul>
-                                    <a href="" class="btn btn-md">ESCOLHA ESTE</a>
+                                    <a href="#contact" class="btn btn-md">ESCOLHA ESTE</a>
                                 </div>
                             </div>
                         </div> <!-- End off col-md-4 -->
@@ -769,7 +770,7 @@
                                         <li>Painel de gerenciamento</li>
                                         <li>Chat online</li>
                                     </ul>
-                                    <a href="" class="btn btn-md">ESCOLHA ESTE</a>
+                                    <a href="#contact" class="btn btn-md">ESCOLHA ESTE</a>
                                 </div>
                             </div>
                         </div> <!-- End off col-md-4 -->
@@ -865,9 +866,7 @@
                         <div class="head_title text-center">
                             <h2>Algumas das Ferramentas e linguagens que utilizamos</h2>
                             <div class="subtitle">
-                                Suspendisse sed eros mollis, tincidunt felis eget, interdum erat.
-                                Nullam sit amet odio eu est aliquet euismod a a urna. Proin eu urna suscipit, dictum
-                                quam nec.
+                               Essas são algumas linguagens de programação, frameworks e ferramentas que utilizamos no desenvolvimentos dos sites e aplicativos.
                             </div>
                             <div class="separator"></div>
                         </div><!-- End off Head_title -->
@@ -911,7 +910,7 @@
                         <div class="head_title text-center">
                             <h2>NOSSO BLOG</h2>
                             <div class="subtitle">
-                                Suspendisse sed eros mollis, tincidunt felis eget, interdum eratullam sit amet odio.
+                               Fique por dentro do que acontece na nossa empresa, além de dicas e informações sobre websites em geral.
                             </div>
                             <div class="separator"></div>
                         </div><!-- End off Head_title -->
@@ -1077,6 +1076,16 @@
                                                         </div>
                                                     </div>
                                                 </div>
+                                                <div class="col-sm-12">
+                                                    <div class="single_contact_info">
+                                                        <div class="single_info_text">
+                                                            <h3>HORÁRIOS</h3>
+                                                            <h4>HORÁRIOS DE ATENDIMENTO</h4>
+                                                            <h5>Segunda-feira à Sexta-feira</h5>
+                                                            <h5>Das 9h às 17h</h5>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -1096,7 +1105,22 @@
                                                         </div>
                                                     </div>
                                                 </div>
-
+                                                <div class="row">
+                                                    <div class="col-sm-12">
+                                                        <div class="form-group">
+                                                            <input type="text" class="form-control" name="telefone1"
+                                                                placeholder="DDD + Telefone 1" required="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                        <div class="col-sm-12">
+                                                            <div class="form-group">
+                                                                <input type="text" class="form-control" name="telefone2"
+                                                                    placeholder="DDD + Telefone 2 (Opcional)">
+                                                            </div>
+                                                        </div>
+                                                    </div>
 
                                                 <div class="row">
                                                     <div class="col-sm-12">
@@ -1107,15 +1131,27 @@
                                                     </div>
                                                     <div class="col-sm-12">
                                                         <div class="form-group">
-                                                            <input type="text" class="form-control" name="subject"
-                                                                placeholder="Titulo" required="">
+                                                            <select >
+                                                                <option value="basico">Básico</option>
+                                                                <option value="padrao">Padrão</option>
+                                                                <option value="avancado">Avançado</option>
+                                                                <option value="mobile">APP Mobile</option>
+                                                              </select> 
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">   
+                                                    <div class="col-sm-12">
+                                                        <div class="form-group">
+                                                            <input type="text" class="form-control" name="assunto"
+                                                                placeholder="Assunto" required="">
                                                         </div>
                                                     </div>
                                                 </div>
 
 
                                                 <div class="form-group">
-                                                    <textarea class="form-control" name="message" rows="7"
+                                                    <textarea class="form-control" name="menssagem" rows="7"
                                                         placeholder="Mensagem"></textarea>
                                                 </div>
 
@@ -1144,7 +1180,7 @@
                                     <h2>Não perca tempo. <span>Contrate AGORA!</span></h2>
                                     <h4>Contrate qualquer um dos planos de site até julho e ganhe 1 ano de dominio
                                         grátis.</h4>
-                                    <a href="" class="btn btn-lg">Contratar Plano</a>
+                                    <a href="#pricing" class="btn btn-lg">Contratar Plano</a>
                                 </div>
                             </div>
                         </div>
