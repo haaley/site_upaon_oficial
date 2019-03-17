@@ -28,6 +28,8 @@ jQuery(document).ready(function ($) {
 // slick slider active 
     $(".main_home_slider").slick({
         dots: false,
+        autoplay: true,
+        autoplaySpeed: 5000,
         infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -42,9 +44,11 @@ jQuery(document).ready(function ($) {
 //    });
     $(".study_slider").slick({
         dots: true,
-        arrows:false,
+        arrows:true,
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        prevArrow:"<i class='fa fa-angle-left nextprevleft'></i>",
+        nextArrow:"<i class='fa fa-angle-right nextprevright'></i>"
     });
 
     /*---------------------------------------------*
