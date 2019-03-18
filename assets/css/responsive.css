@@ -29,6 +29,10 @@ Author URI: http://www.bootstrapthemes.co
     .scrooldown {
         bottom: 0%;
     }  
+    .single_study_text .slick-dots{
+        bottom: -26px;
+    }
+
 }
 
 /* Portrait tablets and small desktops */
@@ -135,6 +139,18 @@ Author URI: http://www.bootstrapthemes.co
     html {
         font-size: 80%;
     }
+    .main_home h1{
+        font-size: 2.340rem;
+    }
+
+    .main_home p {
+        font-size: 0.800;
+    }
+
+    .main_home h3 {
+        font-size: 0.800;
+    }
+
     .main_feature .single_feature {
         margin-bottom: 40px;
     }
@@ -151,42 +167,46 @@ Author URI: http://www.bootstrapthemes.co
         margin-bottom: 30px;
     }
     .single_study_text {
-        top: 70px;
+        top: -21px;
         padding: 5% 20%;
         right:0%;
         background: rgba(255, 255, 255, 0.85);
     }
+
+    .single_study_text .slick-dots{
+        bottom: -26px;
+    }
+
     #portfoliowork {  
         -webkit-column-count: 1; 
         -moz-column-count: 1;
         column-count: 1;
     }
     .main_team ul li:nth-child(1) {
-        top: 100%;
+        top: 60%;
         left: 15%;
     }
     .main_team ul li:nth-child(2) {
-        top: 100%;
+        top: 60%;
         left: 40%;
     }
     .main_team ul li:nth-child(3) {
-        top: 100%;
+        top: 60%;
         left: 65%;
     }
     .main_team ul li:nth-child(4) {
-        top: 270%;
+        top: 150%;
         left: 15%;
     }
     .main_team ul li:nth-child(5) {
-        top: 270%;
+        top: 150%;
         left: 40%;
     }
 
     .main_team ul li:nth-child(6) {
-        top: 270%;
+        top: 150%;
         left: 65%;
     }
-
 
     .pricing_head .pricing_price {
         left: 36%;
@@ -212,7 +232,20 @@ Author URI: http://www.bootstrapthemes.co
         text-align: center;
     }
 
+    .contact_info_content i {
+        float: left;
+        padding: 5px;
+        margin-right: 0px;
+    }
 
+    .contact_info_content h4 {
+        font-size: 1.03rem;
+    }
+
+    .single_contant_left {
+        margin-top: 21px;
+       
+    }
 
 }
 
@@ -249,14 +282,51 @@ Author URI: http://www.bootstrapthemes.co
     .pricing_head .pricing_price {
         left: 25%;
     }
+}
 
+@media (width: 768px) {
 
+    .main_team ul li:nth-child(1) {
+        top: 60%;
+        left: 7%;
+    }
+    .main_team ul li:nth-child(2) {
+        top: 60%;
+        left: 37%;
+    }
+    .main_team ul li:nth-child(3) {
+        top: 60%;
+        left: 67%;
+    }
+    .main_team ul li:nth-child(4) {
+        top: 128%;
+        left: 7%;
+    }
+    .main_team ul li:nth-child(5) {
+        top: 128%;
+        left: 37%;
+    }
 
+    .main_team ul li:nth-child(6) {
+        top: 128%;
+        left: 67%;
+    }
 
+    li .single_team_text{
+      width: 0px;
+      margin-top: -149px;
+      float: right;
+    }
+    
+    .main_blog_content .single_blog_area .single_blog_text {
+        padding: 0px 3px 33px 20px;
+    }
 
+    .single_contant_left {
+        margin-top: 1px;
+    }
 
-
-
-
-
+    .padding-bottom-90 {
+        padding-bottom: 21.429rem;
+    }
 }
