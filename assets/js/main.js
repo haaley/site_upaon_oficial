@@ -25,7 +25,7 @@ jQuery(document).ready(function ($) {
     });
 
 
-// slick slider active 
+    // slick slider active 
     $(".main_home_slider").slick({
         dots: false,
         autoplay: true,
@@ -33,22 +33,22 @@ jQuery(document).ready(function ($) {
         infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,
-        prevArrow:"<i class='fa fa-angle-left nextprevleft'></i>",
-        nextArrow:"<i class='fa fa-angle-right nextprevright'></i>"
+        prevArrow: "<i class='fa fa-angle-left nextprevleft'></i>",
+        nextArrow: "<i class='fa fa-angle-right nextprevright'></i>"
     });
 
-//    $(".study_slider").slick({
-//        dots: true,
-//        slidesToShow: 1,
-//        slidesToScroll: 1
-//    });
+    //    $(".study_slider").slick({
+    //        dots: true,
+    //        slidesToShow: 1,
+    //        slidesToScroll: 1
+    //    });
     $(".study_slider").slick({
         dots: true,
-        arrows:true,
+        arrows: true,
         slidesToShow: 1,
         slidesToScroll: 1,
-        prevArrow:"<i class='fa fa-angle-left nextprevleft'></i>",
-        nextArrow:"<i class='fa fa-angle-right nextprevright'></i>"
+        prevArrow: "<i class='fa fa-angle-left nextprevleft'></i>",
+        nextArrow: "<i class='fa fa-angle-right nextprevright'></i>"
     });
 
     /*---------------------------------------------*
@@ -67,7 +67,7 @@ jQuery(document).ready(function ($) {
     wow.init();
 
 
-// magnificPopup
+    // magnificPopup
 
     $('.portfolio-img').magnificPopup({
         type: 'image',
@@ -79,16 +79,16 @@ jQuery(document).ready(function ($) {
 
 
 
-//---------------------------------------------
-// Counter 
-//---------------------------------------------
+    //---------------------------------------------
+    // Counter 
+    //---------------------------------------------
 
     $('.statistic-counter').counterUp({
         delay: 10,
         time: 2000
     });
 
-// main-menu-scroll
+    // main-menu-scroll
 
     jQuery(window).scroll(function () {
         var top = jQuery(document).scrollTop();
@@ -102,7 +102,7 @@ jQuery(document).ready(function ($) {
         }
     });
 
-// scroll Up
+    // scroll Up
 
     $(window).scroll(function () {
         if ($(this).scrollTop() > 600) {
@@ -113,12 +113,12 @@ jQuery(document).ready(function ($) {
     });
 
     $('.scrollup').click(function () {
-        $("html, body").animate({scrollTop: 0}, 1000);
+        $("html, body").animate({ scrollTop: 0 }, 1000);
         return false;
     });
 
 
-// scrool Down
+    // scrool Down
     $('.scrooldown a').bind('click', function () {
         $('html , body').stop().animate({
             scrollTop: $($(this).attr('href')).offset().top - 160
@@ -128,12 +128,12 @@ jQuery(document).ready(function ($) {
 
 
 
-// Portfoliowork init
+    // Portfoliowork init
     jQuery('#portfoliowork').mixItUp({
         selectors: {
             target: '.tile',
             filter: '.filter'
-                    //           sort: '.sort-btn'
+            //           sort: '.sort-btn'
         },
         animation: {
             animateResizeContainer: false,
@@ -142,7 +142,7 @@ jQuery(document).ready(function ($) {
 
     });
 
-// dropdown menu
+    // dropdown menu
     $('.dropdown-menu').click(function (e) {
         e.stopPropagation();
     });

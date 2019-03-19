@@ -33,7 +33,41 @@ Author URI: http://www.bootstrapthemes.co
         bottom: -26px;
     }
 
-}
+    .main_blog_content .single_blog_area .single_blog_text_1{
+        background: #f3722d;
+        padding: 6px 0px 28px 12px;
+        position: relative;
+    }
+    
+    .main_blog_content .single_blog_area .single_blog_text_2{
+        background: #f3722d;
+        padding: 6px 0px 0px 12px;
+        position: relative;
+    }
+    
+    .main_blog_content .single_blog_area .single_blog_text_3{
+        background: #f3722d;
+        padding: 6px 28px 91px 12px;
+        position: relative;
+    }
+    
+    .main_blog_content .single_blog_area .single_blog_text_4{
+        background: #f3722d;
+        padding: 6px 30px 35px 12px;
+        position: relative;
+    }
+    
+    .main_blog_content .single_blog_area .single_blog_text_5{
+        background: #f3722d;
+        padding: 6px 30px 14px 12px;
+        position: relative;
+    }
+    
+    .main_blog_content .single_blog_area .single_blog_text_6{
+        background: #f3722d;
+        padding: 6px 0px 7px 11px;
+        position: relative;
+    }
 
 /* Portrait tablets and small desktops */
 @media (max-width: 991px) {
@@ -317,9 +351,35 @@ Author URI: http://www.bootstrapthemes.co
       margin-top: -149px;
       float: right;
     }
+
+    .main_blog_content .single_blog_area .single_blog_text_1 {
+        padding: 20px 25px 50px 20px;
+        
+    }
+
+    .main_blog_content .single_blog_area .single_blog_text_2 {
+        padding: 20px 25px 0px 20px;
     
-    .main_blog_content .single_blog_area .single_blog_text {
-        padding: 0px 3px 33px 20px;
+    }
+
+    .main_blog_content .single_blog_area .single_blog_text_3 {
+        padding: 20px 25px 133px 20px;
+   
+    }
+
+    .main_blog_content .single_blog_area .single_blog_text_4 {
+        padding: 20px 25px 33px 20px;
+   
+    }
+
+    .main_blog_content .single_blog_area .single_blog_text_5 {
+        padding: 20px 25px 85px 20px;
+
+    }
+
+    .main_blog_content .single_blog_area .single_blog_text_6 {
+        padding: 20px 25px 33px 20px;
+
     }
 
     .single_contant_left {

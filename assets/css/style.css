@@ -387,6 +387,7 @@ Button
     background-color: #f3722d;
     border-color: #f3722d;
 }
+
 .btn {
     display: inline-block;
     min-width: 150px;
@@ -403,8 +404,8 @@ Button
     padding: 0.8rem 3rem;
     transition: all 0.6s;
     border-radius: 2px;
-
 }
+
 .btn:hover{
     box-shadow: 0px 2px 2px 1px rgba(221, 221, 221, 0.6);
     color:#fff;
@@ -424,8 +425,33 @@ Button
 }
 
 .btn-lg-footer{
-    background: #342d9d;
+    background: #0a585d ;
     padding: 1.125rem 3rem;
+}
+
+.btn-footer {
+    display: inline-block;
+    min-width: 150px;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 1px;
+    margin: 0;
+    font-size:0.8125rem;
+    border-radius: 0px;
+    margin-top: 20px;
+    transition: .5s;
+    border: 1px solid #0a585d ;
+    font-family: 'open_sansbold';
+    padding: 1.2rem 3rem;
+    transition: all 0.6s;
+    border-radius: 2px;
+    height: 50px;
+}
+
+.btn-footer:hover{
+    box-shadow: 0px 2px 2px 1px rgba(221, 221, 221, 0.6);
+    color:#f3722d;
+    box-shadow: 0px 2px 2px 1px #f3722d;
 }
 
 .btn-md{
@@ -1361,9 +1387,39 @@ li .single_team_text p{
 }
 
 
-.main_blog_content .single_blog_area .single_blog_text{
+.main_blog_content .single_blog_area .single_blog_text_1{
     background: #f3722d;
-    padding: 29px 30px 70px 50px;
+    padding: 29px 30px 9px 50px;
+    position: relative;
+}
+
+.main_blog_content .single_blog_area .single_blog_text_2{
+    background: #f3722d;
+    padding: 29px 30px 9px 50px;
+    position: relative;
+}
+
+.main_blog_content .single_blog_area .single_blog_text_3{
+    background: #f3722d;
+    padding: 29px 30px 99px 50px;
+    position: relative;
+}
+
+.main_blog_content .single_blog_area .single_blog_text_4{
+    background: #f3722d;
+    padding: 29px 30px 71px 50px;
+    position: relative;
+}
+
+.main_blog_content .single_blog_area .single_blog_text_5{
+    background: #f3722d;
+    padding: 29px 30px 49px 50px;
+    position: relative;
+}
+
+.main_blog_content .single_blog_area .single_blog_text_6{
+    background: #f3722d;
+    padding: 29px 30px 22px 50px;
     position: relative;
 }
 .main_blog_content .single_blog_area .single_blog_text.s_b_left:after{
@@ -1472,6 +1528,7 @@ li .single_team_text p{
     color:#fff;
 }
 .main_trial h2{
+    color: #f3722e;
     text-transform: none;
     font-family: 'open_sansregular';
 }
