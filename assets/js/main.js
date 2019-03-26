@@ -2,9 +2,9 @@
 jQuery(document).ready(function ($) {
 
     $(window).load(function () {
-        $(".loaded").fadeOut();
-        $(".preloader").delay(1000).fadeOut("slow");
-    });
+        $(".loaded").delay(1300).fadeOut("slow");
+        $(".preloader").delay(1300).fadeOut("slow");
+    })
     /*---------------------------------------------*
      * Mobile menu
      ---------------------------------------------*/
