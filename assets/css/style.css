@@ -40,7 +40,6 @@ body {
     left: 50%;
     top: 50%;
     background-image: url(../images/loading.gif);
-    
     background-position: center;
     -moz-background-size: cover;
     background-size: cover;
@@ -52,7 +51,6 @@ img {
     -ms-user-select: none;
     user-select: none;
     -webkit-user-drag: none;
-    user-drag: none;
 }
 a,
 a:hover,
@@ -601,7 +599,6 @@ input::-ms-input-placeholder {
     color:#f3722d;
     background: transparent;
 }
-.main_menu_bg .navbar {}
 
 .main_menu_bg .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
     color: #f3722d;
@@ -830,8 +827,7 @@ input::-ms-input-placeholder {
             Feature section Style
 ====================================================================*/
 
-.main_feature{}
-.main_feature .single_feature{}
+
 .main_feature .single_feature:hover .single_feature_icon{
     border-color:#f3722d;
     transform: rotate(45deg);
@@ -862,9 +858,7 @@ input::-ms-input-placeholder {
 /*==================================================================
             History section Style
 ====================================================================*/
-.main_history{
 
-}
 .main_history .single_history_content .head_title h2{
     border-left:6px solid #f3722d;
     padding-left: 30px;
@@ -1172,10 +1166,7 @@ button.btn-md:hover {
     background: #f4f5f9;
     padding: 80px 0px 30px 0px;
 }
-.single_pricing ul{
 
-
-}
 .single_pricing ul li{
     line-height:45px;
     height:45px;
@@ -1228,7 +1219,6 @@ button.btn-md:hover {
 .main_team ul li:nth-child(1){
     width: 15%;
     display: inline-block;
-    float: left;
     margin-left: 3%;
     position: absolute;
     right:87%;
@@ -1237,7 +1227,6 @@ button.btn-md:hover {
 .main_team ul li:nth-child(2){
     width: 15%;
     display: inline-block;
-    float: left;
     margin-left: 3%;
     position: absolute;
     left:13%;
@@ -1246,7 +1235,6 @@ button.btn-md:hover {
 .main_team ul li:nth-child(3){
     width: 15%;
     display: inline-block;
-    float: left;
     margin-left: 3%;
     position: absolute;
     left:31%;
@@ -1255,7 +1243,6 @@ button.btn-md:hover {
 .main_team ul li:nth-child(4){
     width: 15%;
     display: inline-block;
-    float: left;
     margin-left: 3%;
     position: absolute;
     left:49%;
@@ -1264,7 +1251,6 @@ button.btn-md:hover {
 .main_team ul li:nth-child(5){
     width: 15%;
     display: inline-block;
-    float: left;
     margin-left: 3%;
     position: absolute;
     left:67%;
@@ -1274,7 +1260,6 @@ button.btn-md:hover {
 .main_team ul li:nth-child(6){
     width: 15%;
     display: inline-block;
-    float: left;
     margin-left: 3%;
     position: absolute;
     left:85%;
